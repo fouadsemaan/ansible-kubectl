@@ -1,5 +1,6 @@
 ---
 - hosts: localhost
+  name: local_test
   remote_user: root
   roles:
     - '{{playbook_dir}}'
